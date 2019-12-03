@@ -1,4 +1,4 @@
 #!/bin/bash
 /usr/bin/mysqld_safe &
-sleep 5
+sleep 25
 mysql -u root < /app/testenvironmentbooking.sql
